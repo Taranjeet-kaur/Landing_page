@@ -1,0 +1,31 @@
+/* .logo-links {
+    display: flex;
+
+} */
+
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 17px;
+    /* display: inline-block; */
+}
+a{
+    text-decoration: none; /*Removes default style of an anchor tag (blue color and underline) */
+    color: black; 
+} 
+
+ul {
+    display:inline-flex;
+    list-style-type: none; /*THIS REMOVES THE DISC STYLE FROM AN UNORDERED LIST*/
+    justify-content: flex-end;
+    right: 0;
+    top: 0; 
+    position: absolute;
+}
+
+li {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
