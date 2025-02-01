@@ -1,18 +1,14 @@
-/* .logo-links {
-    display: flex;
-
-} */
-
-
-img {
-    height: 50px;
-    width: 50px;
-    border-radius: 17px;
-    /* display: inline-block; */
-}
+#logo {
+    padding-left: 100px;
+    padding-top:15px ;
+    font-size: 24px;
+    color: #f9faf8;
+ }
 a{
     text-decoration: none; /*Removes default style of an anchor tag (blue color and underline) */
-    color: black; 
+    color: #F9FAF8; 
+    font-size: 18px;
+
 } 
 
 ul {
@@ -27,5 +23,91 @@ ul {
 li {
     padding-left: 20px;
     padding-right: 20px;
+}
 
+header {
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8; 
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    background-color:#3883f6 ;
+    /* padding: 8px; */
+    padding-top:  5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-left: 100px; */
+    margin-top: 7px;
+    border-radius: 5px;
+    border: none;
+    /* margin-bottom: 50px; */
+    color: white;
+
+}
+
+.image {
+     height: 200px ;
+     width: 450px;
+     background-color: gray;
+     padding-top: 30px;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    border-radius: 7px;
+    margin-left: 100px;
+}
+
+.text-presentation {
+    margin-right: 100px;
+}
+
+.texts-image {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    align-self: auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 105px ;
+}
+
+h2 {
+    text-align: center;
+}
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    padding: 20px;
+    /* background-color:#3883f6 ; */
+
+}
+.row-1{
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    display: flex; 
+    flex-direction: column;
+    border-color: #3883f6;
 }
